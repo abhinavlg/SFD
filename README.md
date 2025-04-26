@@ -40,9 +40,9 @@ The alarm automatically stops when normal posture and eye opening are restored.
 Requirements
 -------------
 Install the required libraries:
-
+```
 pip install opencv-python dlib imutils scipy pygame mediapipe
-
+```
 Make sure you have these important files:
 - shape_predictor_68_face_landmarks.dat
 - alarm.mp3
@@ -52,9 +52,9 @@ Usage
 1. Clone the repository or download the code.
 2. Place the shape_predictor_68_face_landmarks.dat and alarm.mp3 in the project folder.
 3. Run the script:
-
+```
 python app.py
-
+```
 4. Press Ctrl+C key to exit.
 
 Features
@@ -64,10 +64,6 @@ Features
 - Customizable Alarm Sound
 - Smart alarm control (no repeated sounds if already playing)
 - Lightweight and fast (works on most laptops)
-
-Screenshots
-------------
-(Add your real screenshots later if you want.)
 
 Future Improvements
 --------------------
@@ -80,7 +76,7 @@ Author
 -------
 Abhinav L G
 
-[Github](https://github.com/abhinavlg )
+[Github](https://github.com/abhinavlg)
 
 Acknowledgements
 -----------------
